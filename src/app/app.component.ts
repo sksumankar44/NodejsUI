@@ -22,7 +22,7 @@ export class AppComponent implements OnInit {
       .get('http://localhost:3000/api/todos/test')
       .subscribe((resp: any) => {
         this.data = resp;
-        // console.log(resp);
+        console.log(resp);
       });
     // const header = new HttpHeaders({
     //   contentType: 'application/json',
